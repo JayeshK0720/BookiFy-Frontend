@@ -16,7 +16,7 @@ import { useFetchAllBooksQuery } from '../../redux/features/books/booksApi';
 
 const categories = ["Choose a genre", "Business", "Fiction", "Horror", "Adventure"]
 
-const TopSellers = () => {
+const TopSellersPage = () => {
 
     // const [books, setBooks] = useState([]);
     const [selectedCategory, setSelectedCategory] = useState("Choose a genre");
@@ -99,4 +99,4 @@ const TopSellers = () => {
   )
 }
 
-export default TopSellers;
+export default TopSellersPage;
