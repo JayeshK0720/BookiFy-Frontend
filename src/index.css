@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #FFCE1A;  /* Custom Blue */
+  --secondary: #0D0842; /* Custom Purple */
+  /* --accent: #F59E0B;    Custom Yellow */
+  --blackBG : '#F3F3F3';
+  --favorite : '#FF5841';
+  /* --primary-dark: #1e40af; */
+}
+
+:root {
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Nunito Sans", sans-serif;
+}
